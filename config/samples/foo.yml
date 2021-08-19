@@ -1,0 +1,6 @@
+apiVersion: batch.hmsayem.kubebuilder.io/v1
+kind: Foo
+metadata:
+  name: foo-resource
+spec:
+  deploymentName: foo-deploy
